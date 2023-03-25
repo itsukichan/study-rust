@@ -1,3 +1,6 @@
+mod category;
+use category::datatypes;
+
 fn main() {
-    println!("Hello, world!");
+    datatypes::main();
 }
